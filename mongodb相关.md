@@ -120,12 +120,12 @@ db.users.updateOne({ name: "Alice" }, { $inc: { age: -1 } }) // age -1
 db.users.updateOne({ name: "Alice" }, { $mul: { salary: 1.1 } }) // 工资增加 10%
 ```
 #### $min：只有当新值小于当前值时才更新
-简称至多为
+至多为
 ```
 db.users.updateOne({ name: "Alice" }, { $min: { age: 18 } })
 ```
 #### $max：只有当新值大于当前值时才更新
-简称至少为
+至少为
 ```
 db.users.updateOne({ name: "Alice" }, { $max: { age: 30 } })
 ```
