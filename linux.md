@@ -17,6 +17,7 @@
 | 关机 | `sudo halt` |
 | 关机 | sudo init 0 |
 | 重启 | sudo init 6 |
+| 显示当前主机名 | cat /etc/hostname |
 
 
 Linux 的基本操作包括文件管理、用户管理、权限管理、进程管理、网络操作等。以下是一些常见的 Linux 操作命令：
@@ -105,5 +106,6 @@ Linux 的基本操作包括文件管理、用户管理、权限管理、进程�
 VM-12-8-opencloudos
 123.207.16.179
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODUzMTM0NzNdfQ==
+eyJoaXN0b3J5IjpbLTEwNjQxMjIwOTIsLTE2ODUzMTM0NzNdfQ
+==
 -->
