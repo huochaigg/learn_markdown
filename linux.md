@@ -100,3 +100,9 @@ Linux 的基本操作包括文件管理、用户管理、权限管理、进程�
 | 选中删除 | `d` |
 | 搜索关键字 | `/关键字`，按 `n` 查找下一个 |
 | 替换文本 | `:s/旧文本/新文本/g` |
+
+腾讯云：
+VM-12-8-opencloudos
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIxMDM2OTYxODBdfQ==
+-->
