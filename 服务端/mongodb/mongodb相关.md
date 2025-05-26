@@ -674,4 +674,4 @@ db.users.dropIndex({ name: 1 })
 ```
 这些是 MongoDB 的一些常用指令，涵盖了基本的数据库操作、数据操作以及集合和索引管理等内容。
 
-[跳转](./mongoose.md)
+[跳转](mongoose.md)
