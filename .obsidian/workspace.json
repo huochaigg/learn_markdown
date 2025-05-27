@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "debb376430f2361f",
+        "id": "453369e7fcaf4e6a",
         "type": "tabs",
         "children": [
           {
-            "id": "20fd9c77bf09884c",
+            "id": "d3b13a13bff43d07",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "前端/html/语义化标签 SEO 与可访问性.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "语义化标签 SEO 与可访问性"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "前端/html/语义化标签 SEO 与可访问性.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "语义化标签 SEO 与可访问性 的大纲"
             }
           }
         ],
@@ -163,15 +168,26 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "20fd9c77bf09884c",
+  "active": "d3b13a13bff43d07",
   "lastOpenFiles": [
+    "前端/html/meta.md",
+    "前端/html/语义化标签 SEO 与可访问性.md",
+    "前端/html/script.md",
     "前端/html/iframe.md",
-    "前端/html/防止 HTML 注入（XSS）的做法？.md",
-    "前端/html/SEO 与可访问性.md",
+    "前端/html/元素.md",
     "前端/html/如何优化 HTML 页面性能？.md",
+    "前端/html/防止 HTML 注入（XSS）的做法？.md",
+    "vue/生命周期.md",
+    "vue/双向绑定.md",
+    "算法/数据结构/队列.md",
+    "设计模式/工厂模式.md",
+    "设计模式/单例模式.md",
+    "设计模式/代理模式.md",
+    "设计模式/策略模式.md",
+    "前端/前端.md",
+    "LICENSE",
     "浏览器/BOM.md",
     "浏览器/DOM.md",
-    "前端/html/元素.md",
     "服务端/nodejs/process.md",
     "服务端/nodejs/path.md",
     "服务端/nodejs/os.md",
@@ -181,16 +197,6 @@
     "服务端/nodejs/命令.md",
     "服务端/koa/洋葱模型.md",
     "测试/网页白屏排查.md",
-    "算法/算法题/两数之和.md",
-    "算法/算法题/反转链表.md",
-    "算法/算法题/去除字符串中出现次数最少的字符，不改变原字符串的顺序。.md",
-    "算法/算法题/深度优先，广度优先.md",
-    "算法/算法题/数组转树.md",
-    "前端/解决方案/画三角形.md",
-    "js/Date.md",
-    "前端/概念/继承.md",
-    "前端/解决方案/打字机效果，类似chatgpt.md",
-    "前端/解决方案/网页加载进度条.md",
     "前端/css/实现",
     "js/axios",
     "新建 文本文档.txt",
@@ -200,7 +206,6 @@
     "算法/算法题",
     "前端/硬件/l",
     "前端/硬件",
-    "web3d/threejs",
     "media/17425265858770.jpg"
   ]
 }
