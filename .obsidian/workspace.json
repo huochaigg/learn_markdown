@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/html/语义化标签 SEO 与可访问性.md",
+                "file": "前端/html/canvas/画一个五角星.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "语义化标签 SEO 与可访问性"
+              "title": "画一个五角星"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/html/语义化标签 SEO 与可访问性.md",
+                "file": "前端/html/canvas/画一个五角星.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "语义化标签 SEO 与可访问性 的大纲"
+              "title": "画一个五角星 的大纲"
             }
           }
         ],
@@ -170,10 +170,12 @@
   },
   "active": "d3b13a13bff43d07",
   "lastOpenFiles": [
+    "前端/html/canvas/基本操作.md",
+    "前端/html/canvas/画一个五角星.md",
     "前端/html/meta.md",
+    "前端/html/iframe.md",
     "前端/html/语义化标签 SEO 与可访问性.md",
     "前端/html/script.md",
-    "前端/html/iframe.md",
     "前端/html/元素.md",
     "前端/html/如何优化 HTML 页面性能？.md",
     "前端/html/防止 HTML 注入（XSS）的做法？.md",
@@ -195,8 +197,6 @@
     "服务端/nodejs/http，https.md",
     "服务端/nodejs/fs.md",
     "服务端/nodejs/命令.md",
-    "服务端/koa/洋葱模型.md",
-    "测试/网页白屏排查.md",
     "前端/css/实现",
     "js/axios",
     "新建 文本文档.txt",
