@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "453369e7fcaf4e6a",
+        "id": "c25e1a79d7b0f008",
         "type": "tabs",
         "children": [
           {
-            "id": "39b7e8df407390db",
+            "id": "9a85ff1a5f04d7ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "浏览器/网页相关/addEventListener.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "addEventListener"
+              "title": "新标签页"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "语言",
+                "query": "17425",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 512.5
+    "width": 392.5
   },
   "right": {
     "id": "07ed8da8cb08270c",
@@ -142,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "浏览器/网页相关/addEventListener.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "addEventListener 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -156,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 412.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,34 +163,38 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "39b7e8df407390db",
+  "active": "9a85ff1a5f04d7ef",
   "lastOpenFiles": [
-    "浏览器/网页相关/安全区.md",
-    "浏览器/网页相关/滚动.md",
-    "浏览器/网页相关/滚动固定在顶部.md",
-    "浏览器/网页相关/判断用户设备.md",
-    "浏览器/网页相关/瀑布流.md",
-    "浏览器/网页相关/拖拽.md",
-    "浏览器/网页相关/虚拟列表.md",
-    "浏览器/网页相关/addEventListener.md",
-    "浏览器/网页相关/BFC，AFC.md",
-    "浏览器/冒泡，捕获.md",
-    "前端/解决方案/语言问题，国际化.md",
-    "react/高阶组件.md",
-    "typescript/装饰器.md",
-    "react/diff算法.md",
-    "react/forwardRef.md",
-    "react/hooks.md",
-    "react/memo.md",
-    "react/mobx.md",
-    "react/redux.md",
-    "react/useEffect.md",
-    "react/useContext.md",
-    "react/useSyncExternalStore.md",
-    "浏览器/事件委托.md",
     "浏览器/DOM.md",
+    "media 2.md",
+    "media 1.md",
+    "服务端/redis/redis.md",
+    "media.md",
     "浏览器/BOM.md",
+    "面试/算法.md",
+    "面试/设计模式.md",
+    "面试/正则表达式.md",
+    "面试/浏览器.md",
+    "media/html字节流将转化成DOM.jpeg",
+    "media/html字节流将转化成DOM.jpeg.crdownload",
+    "media/网络进程是如何将数据传给HTML解析器.jpeg",
+    "media/网络进程是如何将数据传给HTML解析器.jpeg.crdownload",
+    "前端/html/防止 HTML 注入（XSS）的做法？.md",
+    "前端/html/在dom中如何判断a元素是b元素的子元素.md",
+    "浏览器/事件委托.md",
     "浏览器/渲染流程.md",
+    "浏览器/同源策略 --Todo.md",
+    "浏览器/进程和线程.md",
+    "浏览器/冒泡，捕获.md",
+    "浏览器/请求.md",
+    "前端/html/link标签.md",
+    "浏览器/网页相关/data-.md",
+    "算法/算法题/两数之和.md",
+    "算法/算法题/斐波那契数列.md",
+    "算法/算法题/反转链表.md",
+    "算法/算法题/去除字符串中出现次数最少的字符，不改变原字符串的顺序。.md",
+    "算法/算法题/深度优先，广度优先.md",
+    "算法/算法题/数组转树.md",
     "LICENSE",
     "前端/css/实现",
     "js/axios",
@@ -204,8 +203,6 @@
     "js/正则表达式",
     "js/js实现功能",
     "算法/算法题",
-    "前端/硬件/l",
-    "前端/硬件",
     "media/17425265858770.jpg"
   ]
 }

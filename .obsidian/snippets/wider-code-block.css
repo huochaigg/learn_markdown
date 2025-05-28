@@ -1,0 +1,9 @@
+/* 增加代码块最大宽度（阅读模式 & 编辑模式） */
+.markdown-preview-view pre,
+.markdown-source-view.mod-cm6 pre {
+  max-width: 100%;
+  width: auto;
+  white-space: pre-wrap; /* 可选：换行显示 */
+  overflow-x: auto;       /* 保留滚动条 */
+  background-color: var(--background-primary-alt); /* 主题一致性 */
+}
