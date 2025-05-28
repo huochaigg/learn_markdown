@@ -1,4 +1,7 @@
 {
   "theme": "moonstone",
-  "accentColor": "#8f62f9"
+  "accentColor": "#8f62f9",
+  "enabledCssSnippets": [
+    "wider-code-block"
+  ]
 }
