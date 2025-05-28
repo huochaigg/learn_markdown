@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c25e1a79d7b0f008",
+        "id": "39af26b48a5e11a1",
         "type": "tabs",
         "children": [
           {
-            "id": "9a85ff1a5f04d7ef",
+            "id": "dc169f85f610bbad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "浏览器/网页相关/navigator.sendBeacon.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "navigator.sendBeacon"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "17425",
+                "query": "jsonP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "浏览器/网页相关/navigator.sendBeacon.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "navigator.sendBeacon 的大纲"
             }
           }
         ],
@@ -163,38 +168,39 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9a85ff1a5f04d7ef",
+  "active": "dc169f85f610bbad",
   "lastOpenFiles": [
+    "浏览器/HTTP/SSL,TLS.md",
+    "浏览器/网页相关/navigator.sendBeacon.md",
+    "浏览器/HTTP/TCP协议.md",
+    "浏览器/HTTP/强缓存和协商缓存.md",
+    "浏览器/HTTP/JSONP.md",
+    "浏览器/HTTP/HTTP.md",
+    "浏览器/HTTP/GET 和 POST 的区别.md",
+    "浏览器/HTTP/前端图片转为base64相关问题.md",
+    "浏览器/HTTP/请求.md",
+    "浏览器/HTTP/证书的作用.md",
+    "浏览器/HTTP/SSL,TLS 握手原理,.md",
+    "浏览器/HTTP/HTTP 与 HTTPS 的区别.md",
+    "浏览器/HTTP/SameSite 属性.md",
+    "浏览器/HTTP/常见状态码及含义.md",
+    "浏览器/HTTP/Cookie、Session、Token 区别.md",
+    "浏览器/HTTP/HTTP2 的多路复用.md",
+    "浏览器/HTTP/XSS 与 CSRF.md",
+    "浏览器/HTTP/怎么判断命中.md",
+    "浏览器/HTTP/幂等性、无副作用的设计理念.md",
+    "浏览器/HTTP/HTTP1.1_HTTP2_HTTP3.md",
+    "浏览器/HTTP/CORS.md",
+    "浏览器/HTTP/浏览器渲染生命周期.md",
+    "浏览器/HTTP",
     "浏览器/DOM.md",
     "media 2.md",
     "media 1.md",
     "服务端/redis/redis.md",
-    "media.md",
-    "浏览器/BOM.md",
-    "面试/算法.md",
-    "面试/设计模式.md",
-    "面试/正则表达式.md",
-    "面试/浏览器.md",
     "media/html字节流将转化成DOM.jpeg",
     "media/html字节流将转化成DOM.jpeg.crdownload",
     "media/网络进程是如何将数据传给HTML解析器.jpeg",
     "media/网络进程是如何将数据传给HTML解析器.jpeg.crdownload",
-    "前端/html/防止 HTML 注入（XSS）的做法？.md",
-    "前端/html/在dom中如何判断a元素是b元素的子元素.md",
-    "浏览器/事件委托.md",
-    "浏览器/渲染流程.md",
-    "浏览器/同源策略 --Todo.md",
-    "浏览器/进程和线程.md",
-    "浏览器/冒泡，捕获.md",
-    "浏览器/请求.md",
-    "前端/html/link标签.md",
-    "浏览器/网页相关/data-.md",
-    "算法/算法题/两数之和.md",
-    "算法/算法题/斐波那契数列.md",
-    "算法/算法题/反转链表.md",
-    "算法/算法题/去除字符串中出现次数最少的字符，不改变原字符串的顺序。.md",
-    "算法/算法题/深度优先，广度优先.md",
-    "算法/算法题/数组转树.md",
     "LICENSE",
     "前端/css/实现",
     "js/axios",
@@ -202,7 +208,6 @@
     "算法/数据结构",
     "js/正则表达式",
     "js/js实现功能",
-    "算法/算法题",
     "media/17425265858770.jpg"
   ]
 }
