@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "acd046580ccf28dc",
+        "id": "6408324d3b5d97f0",
         "type": "tabs",
         "children": [
           {
-            "id": "825dd370c9331bb3",
+            "id": "e3839f076c892616",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "js/事件循环.md",
+                "file": "js/严格模式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "事件循环"
+              "title": "严格模式"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "js/事件循环.md",
+                "file": "js/严格模式.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "事件循环 的大纲"
+              "title": "严格模式 的大纲"
             }
           }
         ],
@@ -168,16 +168,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "825dd370c9331bb3",
+  "active": "e3839f076c892616",
   "lastOpenFiles": [
-    "js/类数组.md",
+    "2025-05-29.md",
+    "js/严格模式.md",
+    "js/高阶函数/add.md",
+    "js/Proxy.md",
+    "js/Promise.md",
+    "js/Map.md",
     "js/事件循环.md",
+    "js/类数组.md",
     "js/引用内存问题.md",
     "js/箭头函数.md",
     "js/作用域.md",
     "vue/nextTick.md",
     "js/js实现/promise.md",
-    "js/Promise.md",
     "js/queueMicrotask.md",
     "算法/算法题/反转链表.md",
     "算法/算法题/两数之和.md",
@@ -191,11 +196,6 @@
     "面试/职业规划.md",
     "面试/css.md",
     "面试/js.md",
-    "面试/node.md",
-    "面试/react.md",
-    "面试/webpack.md",
-    "浏览器/同源策略 --Todo.md",
-    "浏览器/进程和线程.md",
     "浏览器/HTTP",
     "media/html字节流将转化成DOM.jpeg",
     "media/html字节流将转化成DOM.jpeg.crdownload",
