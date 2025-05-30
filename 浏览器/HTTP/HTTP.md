@@ -12,19 +12,19 @@
 
 ## 请求与响应
 
-|内容|说明|
-|---|---|
-|**请求头**|包含 User-Agent、Accept、Authorization、Cookie 等信息。|
-|**请求体**|POST、PUT 等方法中可携带数据（如 JSON、表单）。|
-|**响应头**|如 Content-Type、Set-Cookie、Cache-Control 等。|
-|**响应体**|返回的 HTML、JSON、图片等内容。|
+| 内容      | 说明                                             |     |
+| ------- | ---------------------------------------------- | --- |
+| **请求头** | 包含 User-Agent、Accept、Authorization、Cookie 等信息。 |     |
+| **请求体** | POST、PUT 等方法中可携带数据（如 JSON、表单）。                 |     |
+| **响应头** | 如 Content-Type、Set-Cookie、Cache-Control 等。     |     |
+| **响应体** | 返回的 HTML、JSON、图片等内容。                           |     |
 
-| 内容                       | 说明                                            |
-| ------------------------ | --------------------------------------------- |
-| **HTTP 与 HTTPS**         | HTTPS 是加密版本的 HTTP，使用 TLS/SSL。                 |
-| **Cookie、Session、Token** | 三者用于维持用户登录状态。                                 |
-| **CORS（跨域）**             | 跨源资源共享，用于浏览器安全策略（同源策略）。                       |
-| **缓存机制**                 | 如强缓存（Cache-Control）、协商缓存（ETag、Last-Modified）。 |
+| 内容                       | 说明                                                                 |
+| ------------------------ | ------------------------------------------------------------------ |
+| **HTTP 与 HTTPS**         | HTTPS 是加密版本的 HTTP，使用 TLS/SSL。                                      |
+| **Cookie、Session、Token** | 三者用于维持用户登录状态。                                                      |
+| **CORS（跨域）**             | 跨源资源共享，用于浏览器安全策略（同源策略）。                                            |
+| **缓存机制**                 | 如[强缓存](浏览器/HTTP/强缓存和协商缓存)（Cache-Control）、协商缓存（ETag、Last-Modified）。 |
 
 |技术|说明|
 |---|---|
@@ -35,20 +35,22 @@
 
 ## 跨域与 CORS
 
-| 考点            | 说明                                                                                                                    |
-| ------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **同源策略的限制**   | 协议、域名、端口不同时即为跨域                                                                                                       |
-| **CORS 实现原理** | Preflight 预检请求、`Access-Control-Allow-*`                                                                               |
-| **跨域解决方案对比**  | CORS、[JSONP](obsidian://open?vault=learn_markdown&file=%E6%B5%8F%E8%A7%88%E5%99%A8%2FHTTP%2FJSONP)、反向代理、postMessage 等 |
+| 考点            | 说明                                                                                                                                                       |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **同源策略的限制**   | 协议、域名、端口不同时即为跨域                                                                                                                                          |
+| **CORS 实现原理** | Preflight 预检请求、`Access-Control-Allow-*`                                                                                                                  |
+| **跨域解决方案对比**  | CORS、[JSONP](obsidian://open?vault=learn_markdown&file=%E6%B5%8F%E8%A7%88%E5%99%A8%2FHTTP%2FJSONP)、[反向代理](服务端/正向代理和反向代理)、[postMessage](前端/html/iframe) 等 |
+|               |                                                                                                                                                          |
 
 ## 性能优化
 
-| 技术                         | 说明                  |
-| -------------------------- | ------------------- |
-| **CDN**                    | 内容分发网络，加速资源访问。      |
-| **HTTP/2、HTTP/3**          | 新版本协议，支持多路复用、头部压缩等。 |
-| **Connection: keep-alive** | 复用 TCP 连接，提高性能。     |
-| **资源懒加载**                  | 减少初始加载时间。           |
+| 技术                         | 说明                                |
+| -------------------------- | --------------------------------- |
+| **[CDN](浏览器/HTTP/CDN)**    | 内容分发网络，加速资源访问。                    |
+| **HTTP/2、HTTP/3**          | 新版本协议，支持多路复用、头部压缩等。               |
+| **Connection: keep-alive** | 复用 [TCP](浏览器/HTTP/TCP协议) 连接，提高性能。 |
+| **资源懒加载**                  | 减少初始加载时间。                         |
+|                            |                                   |
 
 ## 安全相关
 
@@ -65,10 +67,10 @@
 - Chrome DevTools 的 Network 面板指南
 - 现代前端项目中的实际请求封装逻辑（如 axios interceptors）
 
-[HTTP和HTTPS的区别](obsidian://open?vault=learn_markdown&file=%E6%B5%8F%E8%A7%88%E5%99%A8%2FHTTP%2FHTTP%20%E4%B8%8E%20HTTPS%20%E7%9A%84%E5%8C%BA%E5%88%AB)
+[HTTP和HTTPS的区别](浏览器/HTTP/HTTP与HTTPS的区别)
 
-[HTTP1.1_HTTP2_HTTP3](obsidian://open?vault=learn_markdown&file=%E6%B5%8F%E8%A7%88%E5%99%A8%2FHTTP%2FHTTP1.1_HTTP2_HTTP3)
+[HTTP1.1_HTTP2_HTTP3](浏览器/HTTP/HTTP1.1_HTTP2_HTTP3)
 
-[HTTP2 的多路复用](obsidian://open?vault=learn_markdown&file=%E6%B5%8F%E8%A7%88%E5%99%A8%2FHTTP%2FHTTP2%20%E7%9A%84%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8)
+[HTTP2 的多路复用](浏览器/HTTP/HTTP2的多路复用)
 
-
+[浏览器渲染流程](浏览器/渲染流程)
