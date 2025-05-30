@@ -4,37 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "d6b3d56923bf17fc",
+        "id": "15d559d0dac641df",
         "type": "tabs",
         "children": [
           {
-            "id": "9bfe1a6cf9c2c722",
+            "id": "f3892c97412b98eb",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/算法题/数组去重.md",
+                "file": "浏览器/HTTP/浏览器渲染生命周期.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "数组去重"
+              "title": "浏览器渲染生命周期"
             }
           },
           {
-            "id": "d765baba99937ab0",
+            "id": "e63c027e552f2e90",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vue/生命周期.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "生命周期"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ],
@@ -70,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "jsonP",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,13 +155,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vue/生命周期.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "生命周期 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -185,34 +180,34 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d765baba99937ab0",
+  "active": "e63c027e552f2e90",
   "lastOpenFiles": [
-    "vue/effect.md",
-    "vue/hooks.md",
-    "vue/reactive.md",
-    "js/toString.md",
-    "js/valueOf.md",
-    "js/WeakMap.md",
-    "js/WeakSet.md",
-    "js/Reflect.md",
-    "js/Object.md",
-    "js/Date.md",
-    "js/类数组.md",
-    "js/垃圾回收机制.md",
-    "js/柯里化.md",
-    "js/函数工厂.md",
-    "js/迭代.md",
-    "js/变量提升.md",
-    "算法/算法题/数组去重.md",
+    "浏览器/HTTP/浏览器渲染生命周期.md",
+    "浏览器/同源策略 --Todo.md",
     "js/闭包.md",
-    "js/内存泄漏.md",
-    "js/未命名.md",
-    "js/==和===.md",
-    "浏览器/网页相关/EventListener.md",
-    "浏览器/网页相关/ResizeObserver.md",
-    "浏览器/网页相关/MutationObserver.md",
-    "算法/算法题/数组转树.md",
-    "算法/算法题/深度优先，广度优先.md",
+    "浏览器/渲染流程.md",
+    "浏览器/HTTP/SSL,TLS.md",
+    "浏览器/HTTP/HTTPS加密通信.md",
+    "浏览器/HTTP/DNS解析.md",
+    "浏览器/DOM.md",
+    "浏览器/网页相关/window.matchMedia.md",
+    "前端/概念/AJAX.md",
+    "浏览器/HTTP/HTTP.md",
+    "浏览器/HTTP/TCP协议.md",
+    "浏览器/HTTP/强缓存和协商缓存.md",
+    "浏览器/HTTP/JSONP.md",
+    "浏览器/HTTP/对称加密和非对称加密.md",
+    "浏览器/HTTP/幂等性、无副作用的设计理念.md",
+    "浏览器/HTTP/怎么判断命中.md",
+    "浏览器/HTTP/SameSite 属性.md",
+    "浏览器/HTTP/XSS 与 CSRF.md",
+    "浏览器/HTTP/HTTP2 的多路复用.md",
+    "浏览器/HTTP/HTTP1.1_HTTP2_HTTP3.md",
+    "浏览器/HTTP/HTTP 与 HTTPS 的区别.md",
+    "浏览器/HTTP/未命名.md",
+    "算法/算法题/数组去重.md",
+    "浏览器/indexDB，WebSql.md",
+    "浏览器/seo优化.md",
     "浏览器/HTTP",
     "media/html字节流将转化成DOM.jpeg",
     "media/html字节流将转化成DOM.jpeg.crdownload",
