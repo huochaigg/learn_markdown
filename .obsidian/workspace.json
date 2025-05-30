@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "2379a0f1fc1fc3a6",
+        "id": "8710427ad107aa07",
         "type": "tabs",
         "children": [
           {
-            "id": "b6ac13aad42cefdd",
+            "id": "b27abd3f4c7376e0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "服务端/nodejs/nodejs大纲.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "nodejs大纲"
+            }
+          },
+          {
+            "id": "fe2563f98fd2c464",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -17,7 +33,8 @@
               "title": "关系图谱"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "多路复用",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,46 +180,46 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b6ac13aad42cefdd",
+  "active": "fe2563f98fd2c464",
   "lastOpenFiles": [
-    "react/forwardRef.md",
-    "react/useRef.md",
-    "react/useState.md",
-    "react/hooks.md",
-    "面试/浏览器.md",
-    "算法/时间复杂度和空间复杂度.md",
-    "react/hooks实现/useLatest.md",
-    "react/hooks实现/useStateRef.md",
-    "react/useReducer.md",
-    "react/useSyncExternalStore.md",
-    "react/memo.md",
-    "react/useMemo.md",
-    "react/useLayoutEffect.md",
-    "react/useContext.md",
-    "react/router.md",
-    "react/redux.md",
-    "react/mobx.md",
-    "react/useEffect.md",
-    "react/高阶组件.md",
-    "react/diff算法.md",
-    "前端/概念/组合和继承.md",
+    "服务端/nodejs/nodejs大纲.md",
+    "测试/jest/jest.md",
+    "测试/jest",
+    "服务端/nodejs/bcrypt.md",
+    "服务端/nodejs/命令.md",
+    "服务端/nodejs/未命名",
+    "服务端/express/express大纲.md",
+    "服务端/prisma/prisma大纲.md",
+    "服务端/prisma",
+    "浏览器/HTTP/HTTP2的多路复用.md",
+    "浏览器/TCP/TCP协议.md",
+    "浏览器/TCP",
+    "服务端/nodejs/stream.md",
+    "服务端/nodejs/crypto.md",
+    "服务端/nodejs/http和https.md",
+    "浏览器/HTTP/HTTP.md",
+    "浏览器/网页相关/SEO相关.md",
+    "服务端/nginx",
+    "浏览器/HTTP/HTTPS加密通信.md",
+    "浏览器/HTTP/HTTP与HTTPS的区别.md",
+    "浏览器/HTTP/HTTP1.1_HTTP2_HTTP3.md",
+    "浏览器/网页相关/window.matchMedia.md",
+    "浏览器/网页相关/window.md",
+    "浏览器/网页相关/ResizeObserver.md",
+    "浏览器/网页相关/navigator.sendBeacon.md",
+    "浏览器/网页相关/ios点击穿透.md",
+    "浏览器/网页相关/BFC，AFC.md",
+    "浏览器/网页相关/安全区.md",
+    "浏览器/网页相关/滚动.md",
+    "浏览器/网页相关/判断用户设备.md",
+    "浏览器/网页相关/瀑布流.md",
     "react/hooks实现",
-    "浏览器/HTTP/浏览器渲染生命周期.md",
-    "js/WeakSet.md",
-    "js/WeakMap.md",
-    "js/valueOf.md",
-    "js/toString.md",
     "media/图解HTTP-彩色版.pdf",
     "浏览器/HTTP",
     "media/html字节流将转化成DOM.jpeg",
     "media/html字节流将转化成DOM.jpeg.crdownload",
     "media/网络进程是如何将数据传给HTML解析器.jpeg",
     "media/网络进程是如何将数据传给HTML解析器.jpeg.crdownload",
-    "LICENSE",
-    "前端/css/实现",
-    "js/axios",
-    "新建 文本文档.txt",
-    "算法/数据结构",
     "media/17425265858770.jpg"
   ]
 }
