@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue/reactive.md",
+                "file": "vue/生命周期.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "reactive"
+              "title": "生命周期"
             }
           }
         ],
@@ -159,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vue/reactive.md",
+                "file": "vue/生命周期.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "reactive 的大纲"
+              "title": "生命周期 的大纲"
             }
           }
         ],
@@ -187,6 +187,9 @@
   },
   "active": "d765baba99937ab0",
   "lastOpenFiles": [
+    "vue/effect.md",
+    "vue/hooks.md",
+    "vue/reactive.md",
     "js/toString.md",
     "js/valueOf.md",
     "js/WeakMap.md",
@@ -210,9 +213,6 @@
     "浏览器/网页相关/MutationObserver.md",
     "算法/算法题/数组转树.md",
     "算法/算法题/深度优先，广度优先.md",
-    "算法/算法题/两数之和.md",
-    "算法/算法题/反转链表.md",
-    "算法/算法题/斐波那契数列.md",
     "浏览器/HTTP",
     "media/html字节流将转化成DOM.jpeg",
     "media/html字节流将转化成DOM.jpeg.crdownload",
