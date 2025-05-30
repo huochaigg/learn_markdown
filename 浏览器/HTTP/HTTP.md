@@ -35,11 +35,11 @@
 
 ## 跨域与 CORS
 
-| 考点            | 说明                                      |
-| ------------- | --------------------------------------- |
-| **同源策略的限制**   | 协议、域名、端口不同时即为跨域                         |
-| **CORS 实现原理** | Preflight 预检请求、`Access-Control-Allow-*` |
-| **跨域解决方案对比**  | CORS、JSONP、反向代理、postMessage 等           |
+| 考点            | 说明                                                                                                                    |
+| ------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **同源策略的限制**   | 协议、域名、端口不同时即为跨域                                                                                                       |
+| **CORS 实现原理** | Preflight 预检请求、`Access-Control-Allow-*`                                                                               |
+| **跨域解决方案对比**  | CORS、[JSONP](obsidian://open?vault=learn_markdown&file=%E6%B5%8F%E8%A7%88%E5%99%A8%2FHTTP%2FJSONP)、反向代理、postMessage 等 |
 
 ## 性能优化
 
@@ -64,3 +64,11 @@
 - 《图解 HTTP》（基础入门极佳）
 - Chrome DevTools 的 Network 面板指南
 - 现代前端项目中的实际请求封装逻辑（如 axios interceptors）
+
+[HTTP和HTTPS的区别](obsidian://open?vault=learn_markdown&file=%E6%B5%8F%E8%A7%88%E5%99%A8%2FHTTP%2FHTTP%20%E4%B8%8E%20HTTPS%20%E7%9A%84%E5%8C%BA%E5%88%AB)
+
+[HTTP1.1_HTTP2_HTTP3](obsidian://open?vault=learn_markdown&file=%E6%B5%8F%E8%A7%88%E5%99%A8%2FHTTP%2FHTTP1.1_HTTP2_HTTP3)
+
+[HTTP2 的多路复用](obsidian://open?vault=learn_markdown&file=%E6%B5%8F%E8%A7%88%E5%99%A8%2FHTTP%2FHTTP2%20%E7%9A%84%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8)
+
+

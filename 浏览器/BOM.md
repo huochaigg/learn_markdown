@@ -1,4 +1,4 @@
-BOM（Browser Object Model，浏览器对象模型）是浏览器提供的一套 **与浏览器窗口和环境相关的对象接口**，使得 JavaScript 能够与浏览器本身交互
+ BOM（Browser Object Model，浏览器对象模型）是浏览器提供的一套 **与浏览器窗口和环境相关的对象接口**，使得 JavaScript 能够与浏览器本身交互
 
 ## BOM 核心组成
 
