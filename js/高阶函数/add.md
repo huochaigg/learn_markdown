@@ -2,16 +2,16 @@
 
 ```
 const curryAdd = (...initialArgs) => {
-  const args = [...initialArgs];
-
-  const curried = (...newArgs) => {
-    args.push(...newArgs);
-    return curried;
-  };
-
-  curried.toString = () => args.reduce((sum, n) => sum + n, 0);
-  curried.valueOf = curried.toString;
-  return curried;
+	const args = [...initialArgs];
+	
+	const curried = (...newArgs) => {
+		args.push(...newArgs);
+		return curried;
+	};
+		
+	curried.toString = () => args.reduce((sum, n) => sum + n, 0);
+	curried.valueOf = curried.toString;
+	return curried;
 };
 
 // ✅ 使用示例：
