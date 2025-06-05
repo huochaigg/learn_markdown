@@ -127,6 +127,6 @@ type Awaited<T> = T extends null | undefined ? T :
 
 1.  K extends keyof any 相当于 K extends string | number | symbol
 	
-2.  type Lowercase<S extends string> = intrinsic; 
-	intrinsic 这是 **TypeScript 内部类型系统的声明方式**，`intrinsic` 并不是一个真正的类型，而是一个关键字
-	 这个类型的实现是**内建的、由编译器直接处理的**，不是用 TypeScript 本身实现的。
+2.  `type Lowercase<S extends string> = intrinsic`; 
+	intrinsic 这是 TypeScript 内部类型系统的声明方式，intrinsic 并不是一个真正的类型，而是一个关键字
+	 这个类型的实现是内建的、由编译器直接处理的，不是用 TypeScript 本身实现的。
