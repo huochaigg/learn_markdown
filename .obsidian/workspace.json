@@ -11,14 +11,10 @@
             "id": "3e90090ec983be07",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "js/js实现/Object.is.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Object.is"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -142,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "js/js实现/Object.is.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Object.is 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -170,12 +165,16 @@
   },
   "active": "3e90090ec983be07",
   "lastOpenFiles": [
-    "js/js实现/myInstanceOf.md",
     "js/js实现/Object.is.md",
+    "前端/html/canvas/ctx.scale.md",
+    "前端/html/canvas/ctx.save.md",
+    "前端/html/canvas/ctx.restore.md",
+    "typescript/问题/ts中有哪些类型.md",
+    "js/js实现/myInstanceOf.md",
     "js/js实现/Object.create.md",
+    "README.md",
     "react/高阶组件.md",
     "react/diff算法.md",
-    "typescript/问题/ts中有哪些类型.md",
     "typescript/typeof.md",
     "typescript/type.md",
     "typescript/ts内置工具类.md",
@@ -190,12 +189,8 @@
     "typescript/函数重载.md",
     "typescript/泛型.md",
     "typescript/问题/ts中type和interface区别.md",
-    "前端/html/canvas/ctx.scale.md",
     "浏览器/网页相关/requestAnimationFrame.md",
-    "前端/html/canvas/ctx.save.md",
-    "前端/html/canvas/ctx.restore.md",
     "react/useReducer.md",
-    "react/redux.md",
     "typescript/问题",
     "webpack/优化方案",
     "react/redux",
