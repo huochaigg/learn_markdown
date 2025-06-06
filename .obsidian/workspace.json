@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "js/Map.md",
+                "file": "js/js实现/flat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Map"
+              "title": "flat"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "js/Map.md",
+                "file": "js/js实现/flat.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Map 的大纲"
+              "title": "flat 的大纲"
             }
           }
         ],
@@ -170,6 +170,8 @@
   },
   "active": "3e90090ec983be07",
   "lastOpenFiles": [
+    "js/js实现功能/实现setInterval.md",
+    "js/Map.md",
     "js/NaN.md",
     "js/Set.md",
     "js/正则表达式/什么是位置.md",
@@ -194,8 +196,6 @@
     "服务端/koa/洋葱模型.md",
     "服务端/express/express大纲.md",
     "浏览器/网页相关/安全区.md",
-    "浏览器/网页相关/滚动固定在顶部.md",
-    "浏览器/网页相关/navigator.sendBeacon.md",
     "typescript/问题",
     "webpack/优化方案",
     "react/redux",
