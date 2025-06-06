@@ -11,10 +11,14 @@
             "id": "3e90090ec983be07",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "js/Map.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Map"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "js/Map.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Map 的大纲"
             }
           }
         ],
@@ -165,32 +170,32 @@
   },
   "active": "3e90090ec983be07",
   "lastOpenFiles": [
+    "js/NaN.md",
+    "js/Set.md",
+    "js/正则表达式/什么是位置.md",
+    "js/正则表达式/前瞻，后瞻.md",
+    "js/正则表达式/正则表达式常用方法.md",
+    "js/js实现/range.md",
+    "js/js实现/reduce.md",
+    "js/js实现/promise.md",
     "js/js实现/Object.is.md",
-    "前端/html/canvas/ctx.scale.md",
-    "前端/html/canvas/ctx.save.md",
-    "前端/html/canvas/ctx.restore.md",
-    "typescript/问题/ts中有哪些类型.md",
-    "js/js实现/myInstanceOf.md",
     "js/js实现/Object.create.md",
-    "README.md",
-    "react/高阶组件.md",
-    "react/diff算法.md",
-    "typescript/typeof.md",
-    "typescript/type.md",
-    "typescript/ts内置工具类.md",
-    "typescript/keyof.md",
-    "typescript/interface.md",
-    "typescript/in.md",
-    "typescript/extends.md",
-    "typescript/as.md",
-    "typescript/装饰器.md",
-    "typescript/联合类型和交叉类型.md",
-    "typescript/类型体操.md",
-    "typescript/函数重载.md",
-    "typescript/泛型.md",
-    "typescript/问题/ts中type和interface区别.md",
-    "浏览器/网页相关/requestAnimationFrame.md",
-    "react/useReducer.md",
+    "js/js实现/myInstanceOf.md",
+    "js/js实现/map.md",
+    "js/js实现/every.md",
+    "js/js实现/call.md",
+    "js/js实现/bind.md",
+    "js/js实现/apply.md",
+    "js/js实现/封装ajax.md",
+    "js/js常用功能/防抖.md",
+    "js/js常用功能/节流.md",
+    "js/js常用功能/批量请求.md",
+    "js/js常用功能/深克隆.md",
+    "服务端/koa/洋葱模型.md",
+    "服务端/express/express大纲.md",
+    "浏览器/网页相关/安全区.md",
+    "浏览器/网页相关/滚动固定在顶部.md",
+    "浏览器/网页相关/navigator.sendBeacon.md",
     "typescript/问题",
     "webpack/优化方案",
     "react/redux",
