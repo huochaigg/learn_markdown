@@ -276,5 +276,50 @@ class MyPromise {
 	  }
 	);
   }
+
+  static resolve(value) {
+    if (value instanceof Promise) {
+      // 如果是Promise实例，直接返回
+      return value;
+    } else {
+      // 如果不是Promise实例，返回一个新的Promise对象，状态为FULFILLED
+      return new Promise((resolve, reject) => resolve(value));
+    }
+  }
+  static reject(reason) {
+    return new Promise((resolve, reject) => {
+      reject(reason);
+    })
+  }
+  static all(promiseArr) {
+    const len = promiseArr.length;
+    const values = new Array(len);
+    // 记录已经成功执行的promise个数
+    let count = 0;
+    return new Promise((resolve, reject) => {
+      for (let i = 0; i < len; i++) {
+        // Promise.resolve()处理，确保每一个都是promise实例
+        Promise.resolve(promiseArr[i]).then(
+          val => {
+            values[i] = val;
+            count++;
+            // 如果全部执行完，返回promise的状态就可以改变了
+            if (count === len) resolve(values);
+          },
+          err => reject(err),
+        );
+      }
+    })
+  }
+  static race(promiseArr) {
+    return new Promise((resolve, reject) => {
+      promiseArr.forEach(p => {
+        Promise.resolve(p).then(
+          val => resolve(val),
+          err => reject(err),
+        )
+      })
+    })
+  }
 }
 ```
