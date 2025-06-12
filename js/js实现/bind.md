@@ -1,9 +1,11 @@
+完整版，考虑构造函数的调用
+
 ```
 Function.prototype.myBind = function (context, ...bindArgs) {
   const fn = this;
 
   function boundFunction(...callArgs) {
-    const isNew = this instanceof boundFunction;
+    const isNew = this instanceof boundFunction; // 判断是否用于构造函数
     const finalContext = isNew ? this : context || globalThis;
     return fn.apply(finalContext, [...bindArgs, ...callArgs]);
   }
@@ -14,7 +16,7 @@ Function.prototype.myBind = function (context, ...bindArgs) {
 };
 ```
 
-简单版
+简单版, 不考虑构造函数
 
 ```
 Function.prototype.myBind = function(context, ...args) {
@@ -27,3 +29,4 @@ Function.prototype.myBind = function(context, ...args) {
 	};
 };
 ```
+
