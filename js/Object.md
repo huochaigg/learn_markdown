@@ -26,3 +26,27 @@ Object.is(value1, value2)
 
 
 ## Object.assign
+
+
+## Object.defineProperty
+
+精准控制对象属性的行为（可配置、可枚举、可写）
+
+```
+Object.defineProperty(obj, 'name', {
+  value: 'kun',
+  writable: false,
+  configurable: false,
+  enumerable: true
+});
+```
+
+可配置：
+
+| 操作行为                     | configurable = true | configurable = false |
+| ------------------------ | ------------------- | -------------------- |
+| `delete obj.prop`        | ✅ 可以删除              | ❌ 删除无效（无报错）          |
+| 重新 `defineProperty`      | ✅ 可以修改属性特性          | ❌ 无法重新定义（报错）         |
+| 修改 writable 从 true→false | ✅ 可以修改              | ❌ 报错                 |
+| 修改 enumerable            | ✅ 可以修改              | ❌ 报错                 |
+| 修改 get/set               | ✅ 可以修改              | ❌ 报错                 |

@@ -5,10 +5,12 @@ Function.paototype.myApply = function (ctx, argsArray) {
 	const fnSymbol = Symbol();
 	ctx[fnSymbol] = this;
 	let result;
-	if (Array.isArray(argsArray)) {
-		result = context[fnSymbol](...argsArray);
+	if (argsArray == null) { // 可能是null或undefined
+	  result = context[fnSymbol]();
+	} else if (typeof argsArray[Symbol.iterator] === 'function') { // 判断argsArray是否是一个“可迭代对象”（可以被 `for...of` 或展开运算符 `...` 遍历）
+	  result = context[fnSymbol](...argsArray);
 	} else {
-		result = context[fnSymbol]();
+	  throw new TypeError('CreateListFromArrayLike called on non-object');
 	}
 	delete ctx[fnSymbol];
 	return result;

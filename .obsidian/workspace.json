@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "requestAnimationFrame"
             }
+          },
+          {
+            "id": "0f92a5edb5b8c613",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "js/Object.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Object"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "浏览器/网页相关/requestAnimationFrame.md",
+                "file": "js/Object.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "requestAnimationFrame 的大纲"
+              "title": "Object 的大纲"
             }
           }
         ],
@@ -170,34 +185,34 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3e90090ec983be07",
+  "active": "0f92a5edb5b8c613",
   "lastOpenFiles": [
-    "js/js实现/fill.md",
-    "js/Array.md",
-    "js/js实现/bind.md",
+    "js/null和undefined的区别.md",
+    "浏览器/网页相关/requestAnimationFrame.md",
+    "js/==和===.md",
+    "js/js实现/apply.md",
     "js/js实现/call.md",
+    "js/js实现/bind.md",
+    "前端/html/canvas/ctx.scale.md",
+    "前端/html/canvas/ctx.save.md",
+    "前端/html/canvas/ctx.restore.md",
+    "typescript/问题/ts中有哪些类型.md",
+    "js/var,let,const区别.md",
+    "js/new的过程.md",
+    "js/js实现功能/实现setInterval.md",
+    "js/js实现/myInstanceOf.md",
+    "js/js实现/fill.md",
+    "js/js实现/Object.create.md",
+    "README.md",
+    "2025-06-10.md",
+    "js/Array.md",
     "js/WeakSet.md",
     "js/WeakMap.md",
-    "js/var,let,const区别.md",
-    "js/==和===.md",
     "浏览器/HTTP/SSL,TLS.md",
     "浏览器/BOM.md",
-    "浏览器/网页相关/requestAnimationFrame.md",
     "未命名.md",
-    "2025-06-10.md",
     "js/js实现/slice.md",
     "js/js实现/some.md",
-    "js/js实现/封装ajax.md",
-    "js/js实现/apply.md",
-    "js/js实现/myInstanceOf.md",
-    "js/js实现/Object.create.md",
-    "js/js实现/Object.is.md",
-    "js/js实现/promise.md",
-    "js/Set.md",
-    "js/Map.md",
-    "js/js实现/map.md",
-    "js/queueMicrotask.md",
-    "js/Reflect.md",
     "typescript/问题",
     "webpack/优化方案",
     "react/redux",
